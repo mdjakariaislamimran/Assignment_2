@@ -1,0 +1,55 @@
+/* free style start */
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* free style end */
+
+/* header section start */
+/* navbar star */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px 120px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 48px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+#home{
+    color: #252432;
+}
+#cart{
+    color: #000000;
+}
+
+/* navbar end */
+/* header section end */
