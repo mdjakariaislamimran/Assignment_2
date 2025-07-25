@@ -68,6 +68,7 @@ nav ul li a{
 /* banner section start */
 .banner{
     display: flex;
+    align-items: center;
     margin: 0px 150px 120px;
 }
 .banner-content-title{
@@ -168,6 +169,60 @@ nav ul li a{
 }
 /* Plants Lover Section end */
 
+/* Join Section start */
+.join-section{
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 7.5rem;
+    padding: 199px 305px 193px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+.join-section-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+.join-section-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;
+}
+.join-section-form input[type="email"] {
+  padding: 1rem 20rem 1rem 1.25rem;
+  width: 80.5%;
+  max-width: 664px;
+  height: 3.125rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+input.inter::placeholder {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  padding: 15px 30px;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Join Section end */
+
 /* main section end */
 
 
@@ -221,6 +276,9 @@ nav ul li a{
         height: auto;
     }
     /* banner section end */
+    /* header section end */
+
+    /* main section start */
     /* plant section start */
     .plant-section {
     margin: 0;
@@ -295,5 +353,38 @@ nav ul li a{
         font-size: 0.8rem;
     }
     /* Plants Lover Section end */
-    /* header section end */
+
+    /* Join Section start */
+     .join-section {
+    padding: 60px 16px;
+  }
+
+  .join-section-title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .join-section-form {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .join-section-form input[type="email"] {
+    width: 70%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+  }
+
+  .button {
+    width: 30%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+  }
+    /* join section end */
+    /* main section end */
 }
