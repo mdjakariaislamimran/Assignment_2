@@ -142,6 +142,32 @@ nav ul li a{
 }
 /* plant section end */
 
+/* Plants Lover Section start */
+.plant-lover-container{
+    display: flex;
+    gap: 3.75rem;
+    margin: 210px 150px 0px;
+    align-items: center;
+}
+.plant-lover-image{
+    height: auto;
+    width: 50%;
+}
+.plant-lover-content-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.plant-lover-content-details{
+    font-size: 1.37rem;
+    font-weight: 400;
+}
+.plant-lover-content-details li{
+    margin-bottom: 20px;
+}
+/* Plants Lover Section end */
+
 /* main section end */
 
 
