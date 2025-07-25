@@ -278,5 +278,22 @@ nav ul li a{
         border: none;
     }
     /* plant section end*/
+
+    /* Plants Lover Section start */
+    .plant-lover-container{
+        margin: 41px 16px 0px;
+        flex-direction: column;
+    }
+    .plant-lover-image{
+        width: 100%;
+        height: auto;
+    }
+    .plant-lover-content-title{
+        font-size: 1.5rem;
+    }
+    .plant-lover-content-details{
+        font-size: 0.8rem;
+    }
+    /* Plants Lover Section end */
     /* header section end */
 }
