@@ -1,6 +1,7 @@
 *{
     margin: 0px auto;
     max-width: 1440px;
+    box-sizing: border-box;
 }
 /* free style start */
 
@@ -42,7 +43,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 30px 150px 120px;
-    gap: 580px;
+    gap: 500px;
 }
 nav ul{
     display: flex;
@@ -137,6 +138,7 @@ nav ul li a{
     text-align: center; 
     padding: 1rem 4rem;
     width: 100%;
+    border: none;
 }
 /* plant section end */
 
@@ -193,5 +195,62 @@ nav ul li a{
         height: auto;
     }
     /* banner section end */
+    /* plant section start */
+    .plant-section {
+    margin: 0;
+    padding: 0 16px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+    .plant-section-title {
+        font-size: 1.75rem;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .plant-section-description {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
+    margin: 0 auto;
+  }
+    .card {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .card-title,
+    .price {
+        text-align: center;
+        margin: 8px 0;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 12px 0;
+        font-weight: bold;
+        background-color: #E95A08;
+        color: white;
+        border: none;
+    }
+    /* plant section end*/
     /* header section end */
 }
