@@ -153,9 +153,23 @@ nav ul li a{
     margin: 210px 150px 0px;
     align-items: center;
 }
+.plant-lover-image-wrapper {
+  position: relative;
+  width: 100%;
+}
 .plant-lover-image{
     height: auto;
-    width: 50%;
+    width: 100%;
+}
+.trusted-badge {
+  position: absolute;
+  top: -125px;
+  left: 90%;
+  transform: translateX(-50%);
+  height: 286px;
+  width: 286px; 
+  z-index: 2;
+  filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
 }
 .plant-lover-content-title{
     font-size: 3.125rem;
@@ -495,6 +509,9 @@ input.inter::placeholder {
     /* plant section end*/
 
     /* Plants Lover Section start */
+    .trusted-badge{
+        display: none;
+    }
     .plant-lover-container{
         margin: 41px 16px 0px;
         flex-direction: column;
