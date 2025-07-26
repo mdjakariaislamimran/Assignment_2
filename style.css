@@ -163,11 +163,11 @@ nav ul li a{
 }
 .trusted-badge {
   position: absolute;
-  top: -125px;
-  left: 90%;
+  top: -110px;
+  left: 94%;
   transform: translateX(-50%);
-  height: 286px;
-  width: 286px; 
+  height: 250px;
+  width: 250px;
   z-index: 2;
   filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
 }
@@ -306,7 +306,7 @@ nav ul li a{
 }
 .join-section-form input[type="email"] {
   padding: 1rem 20rem 1rem 1.25rem;
-  width: 80.5%;
+  width: 80.4%;
   max-width: 664px;
   height: 3.125rem;
   border: none;
