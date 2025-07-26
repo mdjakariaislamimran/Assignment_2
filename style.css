@@ -262,16 +262,6 @@ nav ul li a{
     color: #FFFFFF;
     z-index: 2;
  }
-
- /* .latest-deal-card-1{
-    background-image: url(assets/deal-bloom.png);
- }
- .latest-deal-card-2{
-    background-image: url(assets/deal-ana.png);
- }
- .latest-deal-card-3{
-    background-image: url(assets/deal-zabo.png);
- } */
  /* Latest Deal Section end */
 
 /* Join Section start */
@@ -520,6 +510,38 @@ input.inter::placeholder {
         font-size: 0.8rem;
     }
     /* Plants Lover Section end */
+
+    /* Latest Deal Section start */
+    .latest-deal-container{
+        margin: 80px 20px 0px;
+    }
+    .latest-deal-cards{
+        margin: 3.25rem 1rem 0rem;
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+    }
+    .left-cards,
+    .right-cards {
+    width: 100%;
+    }
+    .latest-deal-cards-image {
+    height: auto;
+    }
+    .latest-deal-card-title,
+    .right-side-card-title {
+    font-size: 1.25rem;
+    top: 35%;
+    left: 30%;
+    }
+    .left-card-1 a,
+    .left-card-2 a,
+    .right-cards a {
+    font-size: 1rem;
+    top: 50%;
+    left: 42%;
+    }
+    /* Latest Deal Section end */
 
     /* Join Section start */
      .join-section {
