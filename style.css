@@ -172,6 +172,108 @@ nav ul li a{
 }
 /* Plants Lover Section end */
 
+ /* Latest Deal Section start */
+ .latest-deal-container{
+    margin: 134px 150px 0px;
+ }
+ .latest-deal-title{
+    font-size:3.125rem ;
+    font-weight:bold ;
+    text-align: center;
+    margin-bottom: 1rem;
+ }
+ .latest-deal-subtitle{
+    font-size:1.37rem ;
+    font-weight:400 ;
+    text-align: center;
+    margin-bottom: 7.5rem;
+ }
+ .latest-deal-cards{
+    height: 423px;
+    display: flex;
+    gap: 1.7rem;
+ }
+ .left-cards img{
+    border-radius: 14px;
+ }
+ .latest-deal-card-title{
+   position: absolute;
+   top: 40%;
+   left: 20%;
+   font-size: 1.25rem;
+   font-weight: bold;
+   color: #FFFFFF;
+   z-index: 2;
+ }
+ .left-card-1 a{
+   position: absolute;
+   top: 60%;
+   left: 37%;
+   font-size: 1rem;
+   font-weight: 600;
+   text-decoration: underline;
+   color: #FFFFFF;
+   z-index: 2;
+ }
+ .left-card-2 a{
+   position: absolute;
+   top: 60%;
+   left: 37%;
+   font-size: 1rem;
+   font-weight: 600;
+   text-decoration: underline;
+   color: #FFFFFF;
+   z-index: 2;
+ }
+ .left-card-1{
+    margin-bottom: 1.2rem;
+    position: relative;
+ }
+  .left-card-2{
+    position: relative;
+ }
+ .latest-deal-cards-image{
+    height: 100%;
+    width: 100%;
+    filter: brightness(60%);
+ }
+ .right-cards img{
+    border-radius: 22px;
+ }
+ .right-cards{
+    position: relative;
+ }
+ .right-side-card-title{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    z-index: 2;
+ }
+ .right-cards a{
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #FFFFFF;
+    z-index: 2;
+ }
+
+ /* .latest-deal-card-1{
+    background-image: url(assets/deal-bloom.png);
+ }
+ .latest-deal-card-2{
+    background-image: url(assets/deal-ana.png);
+ }
+ .latest-deal-card-3{
+    background-image: url(assets/deal-zabo.png);
+ } */
+ /* Latest Deal Section end */
+
 /* Join Section start */
 .join-section{
     background-image: url(assets/news-letter-bg.png);
